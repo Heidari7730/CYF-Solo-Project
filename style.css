@@ -1,0 +1,93 @@
+body{
+background-color: rgb(255, 255, 255);    text-align: center;
+    display: grid;
+}
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+.underline {
+    border-bottom: 3px solid white;
+}
+
+h3 {
+
+    color: white;
+
+}
+
+.img {
+
+    background-image: url(/img/FA71AF08-C08F-4138-B438-39A5A058BD45.jpeg);
+    background-size: cover;
+    height: 500px;
+
+
+}
+
+.maincontent {
+   display: flex;
+   padding-top: 2rem;
+   padding-left: 7rem;
+   padding-right: 7rem;
+    
+}
+
+
+
+
+
+
+.babataher {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+.firstcontent {
+    color: rgb(184, 166, 87);
+
+}
+
+
+.alisadr {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+  
+}  
+
+.secondcontent {
+    color: rgb(21, 126, 67);
+}
+
+
+.ganjnameh {   
+     width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+
+.theirdcontent {
+
+    color: rgb(148, 134, 162);
+}
+
+
+
+
+@media screen and (max-width: 900px){
+    maincontent {grid-template-columns: 2fr;}
+
+
+}
+  
+@media screen and (max-width: 600px) {
+    maincontent { grid-template-columns: 1fr;
+
+    }
+    
+}
+    
+
+
