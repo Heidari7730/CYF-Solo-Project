@@ -1,0 +1,47 @@
+body{
+    display: grid;
+    place-items: center;
+    background-color: rgb(251, 249, 251);
+    
+}
+.card {
+    background: rgb(159, 207, 241);
+    height: 600px;
+    width: 600px;
+    border-radius: 50px;
+}
+
+
+.img {
+    height: 280px;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 150px;
+    border-radius: 20px;
+}
+
+
+
+.message {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.birthday {
+    color:rgb(61, 169, 247);
+}
+
+.content {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    color:rgb(255, 255, 255) ;
+}
+
+
+
+h1{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: rgb(126, 19, 55);
+}
